@@ -3,16 +3,23 @@
   "version": "1.0.0",
   "description": "Recipe application",
   "default": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "targets": {
+    "main": false
+  },
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir <dir>"
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Alex Berryhill",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.14.4",
+    "parcel": "^2.14.4"
   },
   "dependencies": {
     "fracty": "^1.0.12",
     "git": "^0.1.5",
     "parcel": "^2.14.4"
-  },
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.14.4"
   }
 }
