@@ -12,7 +12,7 @@
     "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Alex Berryhill",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.14.4",
     "parcel": "^2.14.4"
